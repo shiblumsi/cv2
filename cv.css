@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(150, 167, 163);
+    
+}
+
+.cl-div{
+    clear: both;
+}
+
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    background-color: rgb(201, 154, 138);
+    padding: 20px;
+}
+
+.header{
+    
+}
+
+.img{
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-text{
+    float: left;
+    padding: 30px;
+}
+
+.header-contact{
+    float: right;
+    padding: 20px;
+    
+}
+
+.header-contact a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(66, 63, 63);
+    
+}
+
+.header-contact  a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+hr{
+    border: black solid 3px;
+    width: 100%;
+    margin: 20 auto;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.content{
+    margin-top: 50px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+
+.right{
+    float: left;
+    width: 70%;
+}
+
+.common-hr{
+    border: 1px black solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px auto;
+}
+
+.lef{
+    width: 50%;
+    float: left;
+}
+
+.rig{
+    width: 50%;
+    float: left;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer a{
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    margin-left: 20px;
+   
+}
+
+.footer p{
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    margin-top: 5px;
+   
+}
